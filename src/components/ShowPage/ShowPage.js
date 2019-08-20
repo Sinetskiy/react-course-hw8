@@ -22,7 +22,6 @@ class ShowPage extends PureComponent {
 
         const {name, summary, image, _embedded} = this.props.currentElement;
 
-
         return <div>
             <p>{name}</p>
             <img src={image && image.medium} alt={name}/>
